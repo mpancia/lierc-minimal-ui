@@ -179,6 +179,13 @@ var Commands = function(app) {
 
   add_command("theme", ["color", "colors"], function(panel, line) {
     switch (line) {
+    case "gruvbox dark":
+      app.set_theme("gruvbox-dark");
+      break;
+    case "gruvbox":
+    case "gruvbox light":
+      app.set_theme("gruvbox-light");
+      break;
     case "solarized dark":
       app.set_theme("solarized-dark");
       break;

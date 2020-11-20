@@ -1312,7 +1312,7 @@ var App = function(url, user) {
     });
   };
 
-  var themes = ["solarized-dark", "solarized"];
+  var themes = ["solarized-dark", "solarized", "gruvbox-light", "gruvbox-dark"];
   app.set_theme = function(theme, skip_save) {
     themes.forEach(function(t) {
       document.body.classList.remove(t);
