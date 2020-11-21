@@ -1,0 +1,106 @@
+:root {
+  --base03:    #002b36;
+  --base02:    #073642;
+  --base01:    #586e75;
+  --base00:    #657b83;
+  --base0:     #839496;
+  --base1:     #93a1a1;
+  --base2:     #eee8d5;
+  --base3:     #fdf6e3;
+}
+
+body.solarized #panel ol .date-separator time {
+  background: var(--base3);
+}
+
+body.solarized-dark #panel ol .date-separator time {
+  background: var(--base02);
+  color: var(--base1);
+}
+
+body.solarized #panel ol .last-read:before,
+body.solarized #panel ol .last-read {
+  background: var(--base3);
+}
+
+body.solarized-dark #panel ol .last-read:before,
+body.solarized-dark #panel ol .last-read {
+  background: var(--base02);
+}
+
+body.solarized-dark .image-wrap a {
+  border: 1px solid var(--base01);
+}
+
+body.solarized-dark .image-wrap a:hover {
+  border: 1px solid var(--base00);
+}
+
+body.solarized #input .input {
+  background: var(--base3);
+}
+body.solarized-dark #input .input {
+  border: 1px solid var(--base01);
+}
+
+body.solarized-dark #input .input:focus {
+  border: 1px solid var(--base0);
+  box-shadow: 0 0 0 1px var(--base0);
+}
+
+body.solarized #topic {
+  background: var(--base2);
+}
+
+body.solarized-dark #topic {
+  background: var(--base03);
+}
+
+body.solarized .flex-wrap-right {
+  background: var(--base3);
+}
+
+body.solarized-dark .flex-wrap-right {
+  background: var(--base02);
+  color: #fff;
+}
+
+body.solarized #toggle-nicks {
+  background: var(--base2);
+}
+
+body.solarized-dark #toggle-nicks {
+  background: var(--base03);
+}
+
+body.solarized #toggle-nicks:hover {
+  background: var(--base3);
+}
+
+body.solarized-dark #toggle-nicks:hover {
+  background: var(--base02);
+}
+
+body.solarized-dark .channel-meta {
+  color: var(--base1);
+}
+
+body.solarized-dark #nicks ul li a {
+  color: var(--base1);
+}
+
+body.solarized-dark #nicks ul li a:hover {
+  color: #fff;
+}
+
+body.solarized-dark .embed-wrap {
+  border: 1px solid var(--base01);
+}
+
+body.solarized-dark .embed-wrap:hover {
+  border: 1px solid var(--base00);
+}
+
+body.solarized #foot {
+  background: var(--base2);
+}

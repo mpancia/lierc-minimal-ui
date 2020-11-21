@@ -1,3 +1,5 @@
+@import "./themes/solarized.css";
+
 :root {
   --base03:    #002b36;
   --base02:    #073642;
@@ -206,15 +208,6 @@ a:hover {
   cursor: default;
 }
 
-body.solarized #panel ol .date-separator time {
-  background: var(--base3);
-}
-
-body.solarized-dark #panel ol .date-separator time {
-  background: var(--base02);
-  color: var(--base1);
-}
-
 body.gruvbox-light #panel ol .date-separator time {
   background: var(--base3);
 }
@@ -282,16 +275,6 @@ body.gruvbox-dark #panel ol .date-separator time {
   position: relative;
   z-index: 9;
   background: #fff;
-}
-
-body.solarized #panel ol .last-read:before,
-body.solarized #panel ol .last-read {
-  background: var(--base3);
-}
-
-body.solarized-dark #panel ol .last-read:before,
-body.solarized-dark #panel ol .last-read {
-  background: var(--base02);
 }
 
 body.gruvbox-light #panel ol .last-read:before,
@@ -476,10 +459,6 @@ body.gruvbox-dark #panel ol .last-read {
   outline: 2px solid rgba(0,0,0,0.025);
 }
 
-body.solarized-dark .image-wrap a {
-  border: 1px solid var(--base01);
-}
-
 body.gruvbox-light .image-wrap a {
   border: 1px solid var(--base01);
 }
@@ -490,10 +469,6 @@ body.gruvbox-dark .image-wrap a {
 
 .image-wrap a:hover {
   border: 1px solid #ccc;
-}
-
-body.solarized-dark .image-wrap a:hover {
-  border: 1px solid var(--base00);
 }
 
 body.gruvbox-light .image-wrap a:hover {
@@ -528,10 +503,6 @@ body.gruvbox-dark .image-wrap a:hover {
   position: relative;
 }
 
-body.solarized #foot {
-  background: var(--base2);
-}
-
 .invert {
   filter: invert(100%);
   background: #fff;
@@ -561,13 +532,6 @@ body.solarized #foot {
     sans-serif;
 }
 
-body.solarized #input .input {
-  background: var(--base3);
-}
-body.solarized-dark #input .input {
-  border: 1px solid var(--base01);
-}
-
 #input .input.disabled {
   background: #eee;
 }
@@ -582,11 +546,6 @@ body.solarized-dark #input .input {
   border: 1px solid #7a9cd3;
   box-shadow: 0 0 0 1px #9ec0f7;
   border-radius: 2px;
-}
-
-body.solarized-dark #input .input:focus {
-  border: 1px solid var(--base0);
-  box-shadow: 0 0 0 1px var(--base0);
 }
 
 .nav#meta-channels {
@@ -859,14 +818,6 @@ body.disconnected #reconnect {
   min-height: 15px;
   display: flex;
   box-shadow: 0 0px 6px rgba(0,0,0,0.2);
-}
-
-body.solarized #topic {
-  background: var(--base2);
-}
-
-body.solarized-dark #topic {
-  background: var(--base03);
 }
 
 body.gruvbox-light #topic {
@@ -1375,15 +1326,6 @@ div.flex-wrap {
   background: #fff;
 }
 
-body.solarized .flex-wrap-right {
-  background: var(--base3);
-}
-
-body.solarized-dark .flex-wrap-right {
-  background: var(--base02);
-  color: #fff;
-}
-
 body.gruvbox-light .flex-wrap-right {
   background: var(--base3);
 }
@@ -1417,14 +1359,6 @@ body[data-panel-type=channel].show-nicklist .channel-meta {
   cursor: pointer;
 }
 
-body.solarized #toggle-nicks {
-  background: var(--base2);
-}
-
-body.solarized-dark #toggle-nicks {
-  background: var(--base03);
-}
-
 body.gruvbox-light #toggle-nicks {
   background: var(--base2);
 }
@@ -1436,14 +1370,6 @@ body.gruvbox-dark #toggle-nicks {
 .show-nicklist #toggle-nicks,
 #toggle-nicks:hover {
   background: #fff;
-}
-
-body.solarized #toggle-nicks:hover {
-  background: var(--base3);
-}
-
-body.solarized-dark #toggle-nicks:hover {
-  background: var(--base02);
 }
 
 body.gruvbox-light #toggle-nicks:hover {
@@ -1505,10 +1431,6 @@ ul.channel-controls li a:hover {
   color: #555;
 }
 
-body.solarized-dark .channel-meta {
-  color: var(--base1);
-}
-
 body.gruvbox-light .channel-meta {
   color: var(--base1);
 }
@@ -1541,10 +1463,6 @@ body.gruvbox-dark .channel-meta {
   color: #555;
 }
 
-body.solarized-dark #nicks ul li a {
-  color: var(--base1);
-}
-
 body.gruvbox-light #nicks ul li a {
   color: var(--base1);
 }
@@ -1556,10 +1474,6 @@ body.gruvbox-dark #nicks ul li a {
 
 #nicks ul li a:hover {
   color: #000;
-}
-
-body.solarized-dark #nicks ul li a:hover {
-  color: #fff;
 }
 
 body.gruvbox-light #nicks ul li a:hover {
@@ -1875,10 +1789,6 @@ body.gruvbox-dark #nicks ul li a:hover {
   outline: 2px solid rgba(0,0,0,0.025);
 }
 
-body.solarized-dark .embed-wrap {
-  border: 1px solid var(--base01);
-}
-
 body.gruvbox-light .embed-wrap {
   border: 1px solid var(--base01);
 }
@@ -1903,10 +1813,6 @@ body.gruvbox-dark .embed-wrap {
 
 .embed-wrap:hover {
   border: 1px solid #ccc;
-}
-
-body.solarized-dark .embed-wrap:hover {
-  border: 1px solid var(--base00);
 }
 
 body.gruvbox-light .embed-wrap:hover {
